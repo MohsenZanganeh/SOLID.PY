@@ -62,8 +62,8 @@ print(ios_2)
 
 # congratulation, the os of apple phons are IOS, BUT
 # you didn't obey the Liskov Substitution principle
-# the __str__ function was for The parent of IOS_2
-# and you can use IOS_2 insted of the parent
+# the __str__ function was for The parent of IOS
+# and you can use IOS insted of the parent
 
 # the liskov says your class should be able
 # to be use insted of its parrent, but now you can't
@@ -74,7 +74,7 @@ print(android_4)
 # A31s is from Samsung, the camera is 16Mp, the Os is IOS
 
 # the sumsung phon is IOS, NO. so we can't create a android phon
-# with IOS_2, but our class should be able. because subclass should
+# with IOS, but our class should be able. because subclass should
 # be able to behave like its parent and some more, but they
 # mustn't change the behavior of their parent, they must be
 # like a extention not more
