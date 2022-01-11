@@ -14,7 +14,7 @@
 
 from abc import ABC, abstractmethod
 
-# Dependency Inversion Has two side that are:
+# Dependency Inversion Has two properties:
 # 1 - High-level modules should not depend on the low-level modules.
 # Both should depend on abstractions.
 
