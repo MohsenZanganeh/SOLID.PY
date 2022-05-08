@@ -1,5 +1,5 @@
 
-# SUBCLASSES SHOULD BEGHAVE NICELY WHEN USED IN PLACE OF THEIR BASE CLASS
+# SUBCLASSES SHOULD BEHAVE NICELY WHEN USED IN PLACE OF THEIR BASE CLASS
 # in other WORDS when we use of subclasses we should be 
 # accessible to the properties of Parents and use them
 # in order that we use of subclasses insted of the Parent
@@ -43,7 +43,7 @@ ios_1 = IOS('Apple','13 Promax',64)
 print(ios_1)
 # 13 Promax is from Apple, the camera is 64Mp, the Os is ANDROID
 
-# The Os of apple phons is Android ??🤔🤔
+# The Os of apple phons are Android ??🤔🤔
 # I don't think so 🤨
 
 # so we must change the behavior of IOS class
@@ -66,7 +66,7 @@ print(ios_2)
 # and you can use IOS insted of the parent
 
 # the liskov says your class should be able
-# to be use insted of its parrent, but now you can't
+# to be used insted of its parrent, but now you can't
 # for example we want to create a Android phon with IOS_2
 
 android_4 = IOS('Samsung','A31s',16)
@@ -119,8 +119,8 @@ print(ios_3)
 # Phon Class
 #      Android Class
 #      IOS     Class
-# now we are obey of Liskov Principle
+# now we are obeying of Liskov Principle
 # because subclasses don't change their parent behavior.
 # so subclasses have their parent abilities as well their abilities
 
-# oooo their parent is very arrogant he does not want to change his behavior
+# oooo their parents are very arrogant he does not want to change his behavior
