@@ -79,10 +79,9 @@ person_1.off_camera()
 # Sara  turned off the camera
 
 # the problem here is that the Android class is depend
-# on the Person class, that's mean if we want to use of
-# Android class must be use or must be there when we use of
-# Person class.
-# imaging Person want to use of Ios Phon, person what
+# on the Person class, that means if we want to use of
+# person class, the Android class must be use or must be there 
+# imaging a Person want to use of Ios Phon, person what
 # can do there???
 
 # the dependency inversion says that invert the dependency between 
@@ -92,21 +91,21 @@ person_1.off_camera()
 # use of Android class and we can't change The Android class instead of
 # another class.
 
-# what we can do in this situation.
+# what can we do in this situation?
 
-# we must create an abstraction no insterface, somebodies
-# make mistake between these words. please explore about interface.
+# we must create an abstraction no insterface, some
+# make mistake between these words. please search about interface.
 
-# so lets change these classes to obey Dependency Inversion Principle
+# so let's change these classes to obey Dependency Inversion Principle
 
 # first we must use of ABC
 
 from abc import ABC,abstractmethod
 
-# we was used of an Android class to define,
+# we used of an Android class to define,
 # camera and contact method.
-# we want to add a layer to define our abstraction or our rule,
-# to other classes obey of these rules, as result other classed,
+# we want to add a layer to define our abstraction or our rules,
+# to other classes obey of these rules, as result other classes,
 # will depend on abstraction, as result detailed classes is 
 # depend on abstraction
 
@@ -118,7 +117,7 @@ class Phon(ABC):
         pass
 
 # we define a photo class that has camera and contact method
-# in abstracting structure we must create the method like these,
+# in abstracting structure we must create the method like this,
 # because this is an abstract of some rules, we want to define rule
 # for other classes, to use of the rules that they need, 
 #  ----------------------------------------------------------------
@@ -128,7 +127,7 @@ class Phon(ABC):
 
 # i said the advantage of abstracting at first of the 
 # document but i review that >>>>>>>>>>>>>>>>>>>>
-# i said these are an abstract of some rules, why we must do this,
+# i said these are abstracts of some rules, why we must do this,
 # this is just for developers to develop their application easily,
 # to pay attention to the methods that they must use.
 
